@@ -1,0 +1,14 @@
+C:\Users\User\OneDrive\Desktop\Program.Boot\Program.Calculadora\bin\Debug\net8.0\Program.Calculadora.exe
+C:\Users\User\OneDrive\Desktop\Program.Boot\Program.Calculadora\bin\Debug\net8.0\Program.Calculadora.deps.json
+C:\Users\User\OneDrive\Desktop\Program.Boot\Program.Calculadora\bin\Debug\net8.0\Program.Calculadora.runtimeconfig.json
+C:\Users\User\OneDrive\Desktop\Program.Boot\Program.Calculadora\bin\Debug\net8.0\Program.Calculadora.dll
+C:\Users\User\OneDrive\Desktop\Program.Boot\Program.Calculadora\bin\Debug\net8.0\Program.Calculadora.pdb
+C:\Users\User\OneDrive\Desktop\Program.Boot\Program.Calculadora\obj\Debug\net8.0\Program.Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Desktop\Program.Boot\Program.Calculadora\obj\Debug\net8.0\Program.Calculadora.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Desktop\Program.Boot\Program.Calculadora\obj\Debug\net8.0\Program.Calculadora.AssemblyInfo.cs
+C:\Users\User\OneDrive\Desktop\Program.Boot\Program.Calculadora\obj\Debug\net8.0\Program.Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\Program.Boot\Program.Calculadora\obj\Debug\net8.0\Program.Calculadora.dll
+C:\Users\User\OneDrive\Desktop\Program.Boot\Program.Calculadora\obj\Debug\net8.0\refint\Program.Calculadora.dll
+C:\Users\User\OneDrive\Desktop\Program.Boot\Program.Calculadora\obj\Debug\net8.0\Program.Calculadora.pdb
+C:\Users\User\OneDrive\Desktop\Program.Boot\Program.Calculadora\obj\Debug\net8.0\Program.Calculadora.genruntimeconfig.cache
+C:\Users\User\OneDrive\Desktop\Program.Boot\Program.Calculadora\obj\Debug\net8.0\ref\Program.Calculadora.dll

@@ -26,10 +26,16 @@
             double Div = Valor1 / Valor2;
             return Div;
         }
+        // Calcula a potência
         double Potencia(double Valor1, double Valor2)
         {
             double Pot = Math.Pow(Valor1, Valor2);
             return Pot;
+        }
+        double Modulo(double Valor1, double Valor2)
+        {
+            double Mod = Valor1 % Valor2;
+            return Mod;
         }
         // Solicita o valor do usuário
         double SolicitarValorInteiro()
@@ -44,15 +50,15 @@
         {
             while (true) // fica repetindo até receber um operador válido
             {
-                Console.WriteLine("Escolha a operação que deseja realizar (+ - * / ^) :");
+                Console.WriteLine("Escolha a operação que deseja realizar (+ - * / ^ %) :");
                 string operador = Console.ReadLine()?.Trim() ?? "";
 
-                if (operador == "+" || operador == "-" || operador == "*" || operador == "/" || operador == "^")
+                if (operador == "+" || operador == "-" || operador == "*" || operador == "/" || operador == "^" || operador == "%")
                 {
                     return operador; // sai do laço e retorna se for válido
                 }
 
-                Console.WriteLine("Operador inválido! Digite +, -, *, ^ ou /.");
+                Console.WriteLine("Operador inválido! Digite +, -, *, ^, % ou /.");
             }
         }
         // Realiza o cálculo
@@ -76,7 +82,11 @@
                 case "*":
                     resultado = MultiplicarDoisValores(Valor1, Valor2);
                     break;
-                case "^": resultado= Potencia(Valor1, Valor2);
+                case "^":
+                    resultado = Potencia(Valor1, Valor2);
+                    break;
+                case "%":
+                    resultado = Modulo(Valor1, Valor2);
                     break;
                 default:
                     Console.WriteLine("Operação inválida");

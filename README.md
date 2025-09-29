@@ -13,6 +13,10 @@ Multiplicação
 
 Divisão
 
+Módulo 
+
+Potência
+
 # 🛠️ Tecnologias Utilizadas
 
 Linguagem: C#

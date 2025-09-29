@@ -1,28 +1,32 @@
-﻿class program
+﻿class Program
 {
     static void Main()
     {
-      
+        //Soma os valores 
         double SomarDoisValores(double Valor1, double Valor2)
         {
             double Soma = Valor1 + Valor2;
             return Soma;
         }
+        // Subtrai os valores
         double SubtrairDoisValores(double Valor1, double Valor2)
         {
             double Sub = Valor1 - Valor2;
             return Sub;
         }
+        //Multiplica os valores
         double MultiplicarDoisValores(double Valor1, double Valor2)
         {
             double Mult = Valor1 * Valor2;
             return Mult;
         }
+        //Divide os valores
         double DividirDoisValores(double Valor1, double Valor2)
         {
             double Div = Valor1 / Valor2;
             return Div;
         }
+        // Solicita o valor do usuário
         double SolicitarValorInteiro()
         {
             Console.WriteLine("Digite:");
@@ -30,14 +34,24 @@
             double.TryParse(texto, out double valor);
             return valor;
         }
+        // Solicita o operador do usuário
         string SolicitarOperador()
         {
-            Console.WriteLine("Escolha a operação que deseja realizar (+-/*) :");
-            string operador = Console.ReadLine();
-            return operador ?? "";
-        }
+            while (true) // fica repetindo até receber um operador válido
+            {
+                Console.WriteLine("Escolha a operação que deseja realizar (+ - * /) :");
+                string operador = Console.ReadLine()?.Trim() ?? "";
 
-         void Calcular()
+                if (operador == "+" || operador == "-" || operador == "*" || operador == "/")
+                {
+                    return operador; // sai do laço e retorna se for válido
+                }
+
+                Console.WriteLine("Operador inválido! Digite +, -, * ou /.");
+            }
+        }
+        // Realiza o cálculo
+        void Calcular()
         {
             string operador = SolicitarOperador();
             double Valor1 = SolicitarValorInteiro();
@@ -57,7 +71,8 @@
                 case "*":
                     resultado = MultiplicarDoisValores(Valor1, Valor2);
                     break;
-                default: Console.WriteLine("Operação inválida");
+                default:
+                    Console.WriteLine("Operação inválida");
                     break;
 
             }
@@ -66,5 +81,4 @@
         Calcular();
         Console.ReadKey();
     }
-    
 }
